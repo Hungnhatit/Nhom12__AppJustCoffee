@@ -9,28 +9,6 @@
     app:backgroundTint="@null"
     tools:context=".Login">
 
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="411dp"
-        android:layout_height="68dp"
-        android:layout_marginTop="752dp"
-        android:background="#EEDCC6"
-        android:translationY="2dp"
-        app:backgroundTint="@null"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btnhome2"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="39dp"
-        android:layout_marginTop="18dp"
-        android:background="@drawable/home"
-        app:backgroundTint="@null"
-        app:layout_constraintStart_toStartOf="@+id/textView19"
-        app:layout_constraintTop_toTopOf="@+id/textView19" />
-
     <Button
         android:id="@+id/btnforgotpass"
         android:layout_width="wrap_content"
@@ -227,49 +205,5 @@
         android:textSize="17sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btnlove2"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/love"
-        app:backgroundTint="@null"
-        app:layout_constraintStart_toEndOf="@+id/btnhome2"
-        app:layout_constraintTop_toTopOf="@+id/textView19" />
-
-    <Button
-        android:id="@+id/button35"
-        android:layout_width="411dp"
-        android:layout_height="2dp"
-        android:layout_marginTop="752dp"
-        android:background="@drawable/line"
-        android:textAlignment="center"
-        app:backgroundTint="@null"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btncart2"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/cart"
-        app:backgroundTint="@null"
-        app:layout_constraintStart_toEndOf="@+id/btnlove2"
-        app:layout_constraintTop_toTopOf="@+id/textView19" />
-
-    <Button
-        android:id="@+id/btnuser2"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/user"
-        app:backgroundTint="@null"
-        app:layout_constraintStart_toEndOf="@+id/btncart2"
-        app:layout_constraintTop_toTopOf="@+id/textView19" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

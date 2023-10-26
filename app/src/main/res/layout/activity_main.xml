@@ -81,7 +81,7 @@
         app:srcCompat="@drawable/location" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/btnlogindung"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -104,7 +104,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.236"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/btnlogindung" />
 
     <Button
         android:id="@+id/btnchangeaddress"
@@ -379,8 +379,9 @@
         android:layout_height="20dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="20dp"
-        android:background="@drawable/more"
+        android:background="@drawable/moredung"
         app:backgroundTint="@null"
+        app:iconTint="#FF5722"
         app:layout_constraintEnd_toEndOf="@+id/textView14"
         app:layout_constraintTop_toTopOf="@+id/textView14" />
 
@@ -484,7 +485,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/btnlogindung" />
 
     <Button
         android:id="@+id/btnsave"

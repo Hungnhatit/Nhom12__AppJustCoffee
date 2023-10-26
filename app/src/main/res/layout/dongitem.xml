@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="#B2FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/imgspken"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/anh2" />
+
+        <TextView
+            android:id="@+id/txtnamespken"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgspken"
+            android:text="Jenny Wilson"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:id="@+id/txtsizespken"
+            android:layout_toRightOf="@+id/imgspken"
+            android:layout_below="@+id/txtnamespken"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:textColor="#A3000000"
+            android:text="Size: M"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/imgstarspken"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/imgspken"
+            android:layout_below="@+id/txtsizespken"
+            android:src="@drawable/starken"
+            android:layout_width="15dp"
+            android:layout_height="15dp"/>
+
+        <TextView
+            android:id="@+id/txtevaspken"
+            android:layout_toRightOf="@+id/imgstarspken"
+            android:layout_below="@+id/txtsizespken"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#B4000000"
+            android:textSize="15sp"
+            android:text="4.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txtdolarken"
+            android:layout_toRightOf="@+id/imgspken"
+            android:layout_below="@+id/imgstarspken"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="$"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txtpricespken"
+            android:text="19"
+            android:layout_toRightOf="@+id/txtdolarken"
+            android:layout_below="@+id/imgstarspken"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="2dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <CheckBox
+            android:id="@+id/CBitemken"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:checked="false" />
+
+        <LinearLayout
+            android:id="@+id/quantitycart"
+            android:layout_marginTop="80dp"
+            android:orientation="horizontal"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnminusken"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:backgroundTint="#66EEDCC6"
+                android:background="#66EEDCC6"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/numner"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@null"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnplusken"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:backgroundTint="#66EEDCC6"
+                android:background="#66EEDCC6"
+                android:text="+"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -50,8 +50,7 @@ public class MainActivity extends AppCompatActivity {
         buy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent myintent = new Intent(MainActivity.this,Login.class);
-                startActivity(myintent);
+                finish();
             }
         });
 
@@ -180,7 +179,13 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent gohomehuy = new Intent(MainActivity.this,home.class);
+                startActivity(gohomehuy);
+            }
+        });
 
     }
 

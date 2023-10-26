@@ -14,7 +14,7 @@ public class Login extends AppCompatActivity {
     EditText username,pass;
     CheckBox save_account;
    // WebView my_web;
-    Button forgot_pass,login,facebook,twitter,instagram,google,signup,home,love,cart,user;
+    Button forgot_pass,login,facebook,twitter,instagram,google,signup;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,17 +32,8 @@ public class Login extends AppCompatActivity {
         instagram= findViewById(R.id.btninstagram);
         google = findViewById(R.id.btngoogle);
         signup = findViewById(R.id.btnSingup);
-        home =findViewById(R.id.btnhome2);
-        love = findViewById(R.id.btnlove2);
-        cart = findViewById(R.id.btncart2);
-        user = findViewById(R.id.btnuser2);
 
-        home.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                finish();
-            }
-        });
+
         facebook.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -77,6 +68,20 @@ public class Login extends AppCompatActivity {
             public void onClick(View view) {
                 Intent forget_pass = new Intent(Login.this, forgot_pass.class);
                 startActivity(forget_pass);
+            }
+        });
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent gosign = new Intent(Login.this,loginactivity.class);
+                startActivity(gosign);
+            }
+        });
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent gohomehuy2 = new Intent(Login.this,home.class);
+                startActivity(gohomehuy2);
             }
         });
     }
